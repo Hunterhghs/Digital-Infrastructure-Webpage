@@ -1041,14 +1041,37 @@ ul {
         display: flex;
     }
 
+    .hero {
+        padding: 140px 0 80px;
+        min-height: 100vh;
+        height: auto;
+    }
+
+    .hero-kicker {
+        font-size: 0.75rem;
+        margin-bottom: 16px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 32px;
+    }
+
     .hero-stats {
         flex-direction: column;
         gap: 24px;
+        margin-bottom: 36px;
     }
 
     .hero-stat-divider {
-        width: 48px;
+        width: 80px;
         height: 1px;
+        background: linear-gradient(to right, transparent, var(--accent-gold), transparent);
     }
 
     .impact-channels {
